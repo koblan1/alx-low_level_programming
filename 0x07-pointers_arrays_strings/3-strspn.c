@@ -2,8 +2,8 @@
 
 /**
  * _strspn - gets the length of a prefix substring.
- * @s: initial segment.
- * @accept: accepted bytes.
+ * @s: Pointer to the string.
+ * @accept: Pointer to the character to print.
  * Return: the number of accepted bytes.
  */
 
