@@ -1,4 +1,5 @@
 #include "3-calc.h"
+#include <stdlib.h>
 
 /**
  * get_op_func - selects the correct function to perform
@@ -17,6 +18,7 @@ int (*get_op_func(char *s))(int, int)
 		{"/", op_div},
 		{NULL, NULL}
 	};
+
 	int i = 0;
 
 	while (i < 10)
